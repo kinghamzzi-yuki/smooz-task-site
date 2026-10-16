@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// 表の左の列（権限の名前）は、言葉の途中で折り返さず、<wbr> の位置でだけ折り返す
+td:first-child {
+  word-break: keep-all;
+}
