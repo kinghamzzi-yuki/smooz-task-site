@@ -7,3 +7,8 @@
 td:first-child {
   word-break: keep-all;
 }
+
+// 見出しは文節の切れ目で折り返す（「いただく情／報」のように言葉の途中で割れないように）
+h1, h2 {
+  word-break: auto-phrase;
+}
